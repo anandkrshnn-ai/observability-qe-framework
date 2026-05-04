@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "lenses": [
+      {
+        "order": 0,
+        "parts": [
+          {
+            "position": { "x": 0, "y": 0, "colSpan": 6, "rowSpan": 4 },
+            "metadata": { "type": "Extension/AppInsights/PartType/Performance" },
+            "settings": { "content": { "title": "App Service Response Time (P95)" } }
+          },
+          {
+            "position": { "x": 6, "y": 0, "colSpan": 6, "rowSpan": 4 },
+            "metadata": { "type": "Extension/AppInsights/PartType/Availability" },
+            "settings": { "content": { "title": "Global Availability (Ping Tests)" } }
+          }
+        ]
+      }
+    ]
+  }
+}
